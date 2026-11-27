@@ -82,19 +82,23 @@ async function noticiasAgricolas() {
   return { precos, noticias: [...manchetes(milho, 'Milho'), ...manchetes(soja, 'Soja')] };
 }
 
-/* ---------- NovaCana: cana, etanol e açúcar ---------- */
-async function novaCana() {
-  const xml = await baixar('https://www.novacana.com/rss');
+/* ---------- RSS: NovaCana (cana, etanol, açúcar) e Canal Rural (milho, soja) ---------- */
+async function rss(url, fonteId, fonte, tema) {
+  const xml = await baixar(url);
   const out = [];
   for (const m of xml.matchAll(/<item>([\s\S]*?)<\/item>/g)) {
-    const it = m[1], tag = t => limpar((it.match(new RegExp(`<${t}>([\\s\\S]*?)</${t}>`)) || [])[1]);
+    const it = m[1], tag = t => limpar((it.match(new RegExp(`<${t}[^>]*>([\\s\\S]*?)</${t}>`)) || [])[1]);
     const d = new Date(tag('pubDate'));
-    out.push({ fonteId: 'novacana', titulo: tag('title'), url: tag('link'), resumo: tag('description').slice(0, 220), fonte: 'NovaCana', tema: 'Cana',
+    if (!isNaN(d) && Date.now() - d > 4 * 86400000) continue;   // só dos últimos 4 dias
+    out.push({ fonteId, titulo: tag('title'), url: tag('link'), resumo: tag('description').slice(0, 220), fonte, tema,
       data: isNaN(d) ? '' : d.toLocaleDateString('pt-BR', { timeZone: 'America/Sao_Paulo', day: '2-digit', month: '2-digit' }) });
   }
-  if (!out.length) throw new Error('NovaCana: RSS vazio');
+  if (!out.length) throw new Error(`${fonte} (${tema}): nada recente no RSS`);
   return out;
 }
+const novaCana = () => rss('https://www.novacana.com/rss', 'novacana', 'NovaCana', 'Cana');
+const canalMilho = () => rss('https://www.canalrural.com.br/agricultura/milho/feed/', 'cr-milho', 'Canal Rural', 'Milho');
+const canalSoja = () => rss('https://www.canalrural.com.br/agricultura/soja/feed/', 'cr-soja', 'Canal Rural', 'Soja');
 
 /* ---------- o que importa ---------- */
 // fica: preço, safra, clima, oferta e demanda, câmbio, custos, cana/ATR; sai: eventos, concursos, crimes, política sem efeito no mercado
@@ -117,15 +121,16 @@ async function coletar() {
   avisos.length = 0;
   const erros = avisos;
   const pega = async (nome, f) => { try { return await f(); } catch (e) { erros.push(`${nome}: ${e.message}`); return null; } };
-  const [reg, na, nc] = await Promise.all([pega('Agrolink', precosRegiao), pega('Notícias Agrícolas', noticiasAgricolas), pega('NovaCana', novaCana)]);
-  const precos = [...(reg || []), ...((na && na.precos) || [])];
-  const noticias = [
-    ...relevantes(((na && na.noticias) || []).filter(n => n.tema === 'Milho'), 4),
-    ...relevantes(((na && na.noticias) || []).filter(n => n.tema === 'Soja'), 3),
-    ...relevantes(nc || [], 4)
-  ];
-  const temSoja = !!(na && na.noticias.some(n => n.tema === 'Soja'));
-  const falhou = { agrolink: !reg, 'na-cepea': !na, 'na-b3': !na, 'na-milho': !na, 'na-soja': !temSoja, novacana: !nc };
+  const [reg, na, nc, crm, crs] = await Promise.all([pega('Agrolink', precosRegiao), pega('Notícias Agrícolas', noticiasAgricolas), pega('NovaCana', novaCana),
+    pega('Canal Rural milho', canalMilho), pega('Canal Rural soja', canalSoja)]);
+  const agora = new Date().toISOString();
+  const precos = [...(reg || []), ...((na && na.precos) || [])].map(p => ({ ...p, coletadoEm: agora }));
+  const naN = (na && na.noticias) || [];
+  const milho = relevantes([...naN.filter(n => n.tema === 'Milho'), ...(crm || [])], 4);
+  const soja = relevantes([...naN.filter(n => n.tema === 'Soja'), ...(crs || [])], 3);
+  const noticias = [...milho, ...soja, ...relevantes(nc || [], 4)];
+  // manchetes: se uma fonte falhar, a outra do mesmo tema cobre; só guarda as antigas se o tema ficar vazio
+  const falhou = { agrolink: !reg, 'na-cepea': !na, 'na-b3': !na, 'na-milho': !milho.length, 'cr-milho': !milho.length, 'na-soja': !soja.length, 'cr-soja': !soja.length, novacana: !nc };
   return { precos, noticias, erros, falhou };
 }
 
