@@ -1,0 +1,166 @@
+{
+ "atualizadoEm": "2026-11-27T02:18:08.117Z",
+ "precos": [
+  {
+   "fonteId": "agrolink",
+   "produto": "Milho Seco",
+   "unidade": "sc 60 kg",
+   "praca": "Altinópolis (SP)",
+   "valor": 57.94,
+   "data": "27/11",
+   "fonte": "Agrolink",
+   "url": "https://www.agrolink.com.br/cotacoes/milho-seco-sc-60kg/sp/altinopolis"
+  },
+  {
+   "fonteId": "agrolink",
+   "produto": "Milho Seco",
+   "unidade": "sc 60 kg",
+   "praca": "São Joaquim da Barra (SP)",
+   "valor": 55,
+   "data": "27/11",
+   "fonte": "Agrolink",
+   "url": "https://www.agrolink.com.br/cotacoes/milho-seco-sc-60kg/sp/sao-joaquim-da-barra"
+  },
+  {
+   "fonteId": "agrolink",
+   "produto": "Soja em Grão",
+   "unidade": "sc 60 kg",
+   "praca": "Orlândia (SP)",
+   "valor": 163,
+   "data": "27/11",
+   "fonte": "Agrolink",
+   "url": "https://www.agrolink.com.br/cotacoes/soja-em-grao-sc-60kg/sp/orlandia"
+  },
+  {
+   "fonteId": "na-cepea",
+   "produto": "Milho",
+   "praca": "Indicador CEPEA (Campinas-SP)",
+   "unidade": "sc 60 kg",
+   "valor": 68,
+   "variacao": "0,09%",
+   "data": "26/11",
+   "fonte": "CEPEA via Notícias Agrícolas",
+   "url": "https://www.noticiasagricolas.com.br/cotacoes/milho"
+  },
+  {
+   "fonteId": "na-cepea",
+   "produto": "Soja",
+   "praca": "Indicador CEPEA (Paranaguá-PR)",
+   "unidade": "sc 60 kg",
+   "valor": 169.18,
+   "variacao": "-0,51%",
+   "data": "26/11",
+   "fonte": "CEPEA via Notícias Agrícolas",
+   "url": "https://www.noticiasagricolas.com.br/cotacoes/milho"
+  },
+  {
+   "fonteId": "na-cepea",
+   "produto": "Açúcar cristal",
+   "praca": "Indicador CEPEA (SP)",
+   "unidade": "sc 50 kg",
+   "valor": 133.59,
+   "variacao": "1,15%",
+   "data": "26/11",
+   "fonte": "CEPEA via Notícias Agrícolas",
+   "url": "https://www.noticiasagricolas.com.br/cotacoes/milho"
+  },
+  {
+   "fonteId": "na-b3",
+   "produto": "Milho",
+   "praca": "B3, contrato mar 27",
+   "unidade": "sc 60 kg",
+   "valor": 75.2,
+   "variacao": "0,00%",
+   "data": "26/11",
+   "fonte": "B3 via Notícias Agrícolas",
+   "url": "https://www.noticiasagricolas.com.br/cotacoes/milho"
+  }
+ ],
+ "noticias": [
+  {
+   "fonteId": "na-milho",
+   "titulo": "Milho fecha em queda de até 1,23% na B3, mas preços físicos permanecem estáveis no Brasil",
+   "url": "https://www.noticiasagricolas.com.br/noticias/milho/432046-milho-fecha-em-queda-de-ate-1-23-na-b-3-mas-precos-fisicos-permanecem-estaveis-no-brasil.html",
+   "fonte": "Notícias Agrícolas",
+   "tema": "Milho",
+   "data": "26/11 16:53"
+  },
+  {
+   "fonteId": "na-milho",
+   "titulo": "UE eleva estimativa da safra de milho, mas volume continua sendo o menor em décadas",
+   "url": "https://www.noticiasagricolas.com.br/noticias/milho/432045-ue-eleva-estimativa-da-safra-de-milho-mas-volume-continua-sendo-o-menor-em-decadas.html",
+   "fonte": "Notícias Agrícolas",
+   "tema": "Milho",
+   "data": "26/11 15:34"
+  },
+  {
+   "fonteId": "na-milho",
+   "titulo": "Milho sobe mais de 1% nesta 4ª e lidera ganhos em Chicago, mas dólar em queda pressiona B3",
+   "url": "https://www.noticiasagricolas.com.br/noticias/milho/431972-milho-sobe-mais-de-1-nesta-4-e-lidera-ganhos-em-chicago-mas-dolar-em-queda-pressiona-b-3.html",
+   "fonte": "Notícias Agrícolas",
+   "tema": "Milho",
+   "data": "25/11"
+  },
+  {
+   "fonteId": "na-soja",
+   "titulo": "Soja perde R$ 3/sc nos portos na semana com recuo de mais de 1% do dólar",
+   "url": "https://www.noticiasagricolas.com.br/noticias/soja/432051-soja-perde-r-3-sc-nos-portos-na-semana-com-recuo-de-mais-de-1-do-dolar.html",
+   "fonte": "Notícias Agrícolas",
+   "tema": "Soja",
+   "data": "26/11 17:11"
+  },
+  {
+   "fonteId": "na-soja",
+   "titulo": "Brasil já comercializou 38,1% da safra 2026/27 de soja, aponta StoneX",
+   "url": "https://www.noticiasagricolas.com.br/noticias/soja/432022-brasil-ja-comercializou-38-1-da-safra-2026-27-de-soja-aponta-stone-x.html",
+   "fonte": "Notícias Agrícolas",
+   "tema": "Soja",
+   "data": "26/11 14:48"
+  },
+  {
+   "fonteId": "na-soja",
+   "titulo": "Deral faz leve corte na previsão de safra de soja do Paraná; reduz colheita de trigo",
+   "url": "https://www.noticiasagricolas.com.br/noticias/soja/432005-deral-faz-leve-corte-na-previsao-de-safra-de-soja-do-parana-reduz-colheita-de-trigo.html",
+   "fonte": "Notícias Agrícolas",
+   "tema": "Soja",
+   "data": "26/11 11:45"
+  },
+  {
+   "fonteId": "novacana",
+   "titulo": "Isma estima produção indiana de açúcar em 26,52 mi t em 2026/27, queda de 5,2%",
+   "url": "https://www.novacana.com/noticias/producao-de-acucar-da-india-deve-cair-ao-nivel-mais-baixo-da-decada-diz-entidade-do-setor",
+   "resumo": "",
+   "fonte": "NovaCana",
+   "tema": "Cana",
+   "data": "26/11"
+  },
+  {
+   "fonteId": "novacana",
+   "titulo": "MME reforça que não há risco de desabastecimento de etanol anidro durante entressafra",
+   "url": "https://www.novacana.com/noticias/mme-reforca-que-nao-ha-risco-de-desabastecimento-de-etanol-anidro-durante-entressafra",
+   "resumo": "",
+   "fonte": "NovaCana",
+   "tema": "Cana",
+   "data": "26/11"
+  },
+  {
+   "fonteId": "novacana",
+   "titulo": "Nova tarifa dos Estados Unidos ameaça elevar preços internacionais do açúcar",
+   "url": "https://www.novacana.com/noticias/nova-tarifa-dos-estados-unidos-ameaca-elevar-precos-internacionais-do-acucar",
+   "resumo": "Proposta do governo Trump para elevar as tarifas sobre o açúcar importado pode ter impacto maior no próprio mercado americano, segundo analistas; contratos futuros de açúcar bruto dos EUA sobem 15%",
+   "fonte": "NovaCana",
+   "tema": "Cana",
+   "data": "26/11"
+  },
+  {
+   "fonteId": "novacana",
+   "titulo": "Secretária de Agricultura de Trump defende tarifas e acusa Brasil de “práticas desleais”",
+   "url": "https://www.novacana.com/noticias/secretaria-de-agricultura-de-trump-defende-tarifas-e-acusa-brasil-de-praticas-desleais",
+   "resumo": "Governo Trump propôs uma nova cobrança sobre as importações de açúcar que excederem as cotas estabelecidas pelos EUA; medida ainda não tem data para entrar em vigor",
+   "fonte": "NovaCana",
+   "tema": "Cana",
+   "data": "26/11"
+  }
+ ],
+ "erros": []
+}
