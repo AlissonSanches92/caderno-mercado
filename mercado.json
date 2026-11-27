@@ -1,6 +1,17 @@
 {
- "atualizadoEm": "2026-11-27T02:38:37.060Z",
+ "atualizadoEm": "2026-11-27T02:50:08.620Z",
  "precos": [
+  {
+   "fonteId": "agrolink",
+   "produto": "Feijão Carioca",
+   "unidade": "sc 60 kg",
+   "praca": "Barretos (SP)",
+   "valor": 320,
+   "data": "27/11",
+   "fonte": "Agrolink",
+   "url": "https://www.agrolink.com.br/cotacoes/feijao-carioca-sc-60kg/sp/barretos",
+   "coletadoEm": "2026-11-27T02:50:08.619Z"
+  },
   {
    "fonteId": "agrolink",
    "produto": "Milho Seco",
@@ -10,7 +21,7 @@
    "data": "27/11",
    "fonte": "Agrolink",
    "url": "https://www.agrolink.com.br/cotacoes/milho-seco-sc-60kg/sp/altinopolis",
-   "coletadoEm": "2026-11-27T02:38:37.059Z"
+   "coletadoEm": "2026-11-27T02:50:08.619Z"
   },
   {
    "fonteId": "agrolink",
@@ -21,7 +32,7 @@
    "data": "27/11",
    "fonte": "Agrolink",
    "url": "https://www.agrolink.com.br/cotacoes/milho-seco-sc-60kg/sp/sao-joaquim-da-barra",
-   "coletadoEm": "2026-11-27T02:38:37.059Z"
+   "coletadoEm": "2026-11-27T02:50:08.619Z"
   },
   {
    "fonteId": "agrolink",
@@ -32,7 +43,7 @@
    "data": "27/11",
    "fonte": "Agrolink",
    "url": "https://www.agrolink.com.br/cotacoes/soja-em-grao-sc-60kg/sp/orlandia",
-   "coletadoEm": "2026-11-27T02:38:37.059Z"
+   "coletadoEm": "2026-11-27T02:50:08.619Z"
   },
   {
    "fonteId": "na-cepea",
