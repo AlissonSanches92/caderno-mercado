@@ -128,7 +128,7 @@ async function coletar() {
   const naN = (na && na.noticias) || [];
   const milho = relevantes([...naN.filter(n => n.tema === 'Milho'), ...(crm || [])], 4);
   const soja = relevantes([...naN.filter(n => n.tema === 'Soja'), ...(crs || [])], 3);
-  const noticias = [...milho, ...soja, ...relevantes(nc || [], 4)];
+  const noticias = [...milho, ...soja, ...relevantes(nc || [], 4)].map(n => ({ ...n, coletadoEm: agora }));
   // manchetes: se uma fonte falhar, a outra do mesmo tema cobre; só guarda as antigas se o tema ficar vazio
   const falhou = { agrolink: !reg, 'na-cepea': !na, 'na-b3': !na, 'na-milho': !milho.length, 'cr-milho': !milho.length, 'na-soja': !soja.length, 'cr-soja': !soja.length, novacana: !nc };
   return { precos, noticias, erros, falhou };
