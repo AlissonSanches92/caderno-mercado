@@ -63,7 +63,11 @@ function manchetes(html, tema) {
   return out;
 }
 async function noticiasAgricolas() {
-  const [milho, soja] = await Promise.all([baixar(`${NA}/cotacoes/milho`), baixar(`${NA}/cotacoes/soja`)]);
+  // milho traz os indicadores; soja só as manchetes. Uma página fora do ar não derruba a outra.
+  const [rm, rs] = await Promise.allSettled([baixar(`${NA}/cotacoes/milho`), baixar(`${NA}/cotacoes/soja`)]);
+  if (rm.status !== 'fulfilled') throw rm.reason;
+  const milho = rm.value, soja = rs.status === 'fulfilled' ? rs.value : '';
+  if (!soja) avisos.push(`Notícias Agrícolas (soja): ${rs.reason && rs.reason.message}`);
   const txt = limpar(milho.replace(/<\/(td|th|li|tr)>/g, ' | '));
   const precos = [];
   const cepea = [['Milho \\(sc\\. 60Kg\\)', 'Milho', 'Indicador CEPEA (Campinas-SP)', 'sc 60 kg'], ['Soja \\(PR/ sc\\. 60Kg\\)', 'Soja', 'Indicador CEPEA (Paranaguá-PR)', 'sc 60 kg'], ['Açúcar Cristal \\(sc\\. 50Kg\\)', 'Açúcar cristal', 'Indicador CEPEA (SP)', 'sc 50 kg']];
@@ -108,8 +112,10 @@ function relevantes(lista, max) {
   return out;
 }
 
+const avisos = [];
 async function coletar() {
-  const erros = [];
+  avisos.length = 0;
+  const erros = avisos;
   const pega = async (nome, f) => { try { return await f(); } catch (e) { erros.push(`${nome}: ${e.message}`); return null; } };
   const [reg, na, nc] = await Promise.all([pega('Agrolink', precosRegiao), pega('Notícias Agrícolas', noticiasAgricolas), pega('NovaCana', novaCana)]);
   const precos = [...(reg || []), ...((na && na.precos) || [])];
@@ -118,7 +124,8 @@ async function coletar() {
     ...relevantes(((na && na.noticias) || []).filter(n => n.tema === 'Soja'), 3),
     ...relevantes(nc || [], 4)
   ];
-  const falhou = { agrolink: !reg, 'na-cepea': !na, 'na-b3': !na, 'na-milho': !na, 'na-soja': !na, novacana: !nc };
+  const temSoja = !!(na && na.noticias.some(n => n.tema === 'Soja'));
+  const falhou = { agrolink: !reg, 'na-cepea': !na, 'na-b3': !na, 'na-milho': !na, 'na-soja': !temSoja, novacana: !nc };
   return { precos, noticias, erros, falhou };
 }
 
