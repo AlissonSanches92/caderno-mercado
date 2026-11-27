@@ -12,7 +12,9 @@ const ARQ = path.join(__dirname, '..', 'mercado.json');
   try { antigo = JSON.parse(fs.readFileSync(ARQ, 'utf8')); } catch (e) { antigo = {}; }
   const novo = await coletar();
   // fonte que falhou agora: mantém o que ela trouxe da última vez
-  const manter = lista => (lista || []).filter(x => novo.falhou[x.fonteId]);
+  // ...mas só por até 3 dias: depois disso some, para não parecer preço do dia
+  const LIMITE = 3 * 86400000;
+  const manter = lista => (lista || []).filter(x => novo.falhou[x.fonteId] && x.coletadoEm && Date.now() - Date.parse(x.coletadoEm) < LIMITE);
   const precos = [...novo.precos, ...manter(antigo.precos)];
   const noticias = [...novo.noticias, ...manter(antigo.noticias)];
   if (!precos.length && !noticias.length) { console.error('Nada coletado:', novo.erros); process.exit(1); }
