@@ -1,5 +1,5 @@
 {
- "atualizadoEm": "2026-11-27T02:59:36.901Z",
+ "atualizadoEm": "2026-11-27T12:22:29.293Z",
  "precos": [
   {
    "fonteId": "agrolink",
@@ -10,7 +10,7 @@
    "data": "27/11",
    "fonte": "Agrolink",
    "url": "https://www.agrolink.com.br/cotacoes/feijao-carioca-sc-60kg/sp/barretos",
-   "coletadoEm": "2026-11-27T02:59:36.900Z"
+   "coletadoEm": "2026-11-27T12:22:29.292Z"
   },
   {
    "fonteId": "agrolink",
@@ -21,7 +21,7 @@
    "data": "27/11",
    "fonte": "Agrolink",
    "url": "https://www.agrolink.com.br/cotacoes/milho-seco-sc-60kg/sp/altinopolis",
-   "coletadoEm": "2026-11-27T02:59:36.900Z"
+   "coletadoEm": "2026-11-27T12:22:29.292Z"
   },
   {
    "fonteId": "agrolink",
@@ -32,7 +32,7 @@
    "data": "27/11",
    "fonte": "Agrolink",
    "url": "https://www.agrolink.com.br/cotacoes/milho-seco-sc-60kg/sp/sao-joaquim-da-barra",
-   "coletadoEm": "2026-11-27T02:59:36.900Z"
+   "coletadoEm": "2026-11-27T12:22:29.292Z"
   },
   {
    "fonteId": "agrolink",
@@ -43,20 +43,10 @@
    "data": "27/11",
    "fonte": "Agrolink",
    "url": "https://www.agrolink.com.br/cotacoes/soja-em-grao-sc-60kg/sp/orlandia",
-   "coletadoEm": "2026-11-27T02:59:36.900Z"
+   "coletadoEm": "2026-11-27T12:22:29.292Z"
   }
  ],
  "noticias": [
-  {
-   "fonteId": "cr-milho",
-   "titulo": "Milho: dólar valoriza e produtores restringem oferta no mercado",
-   "url": "https://www.canalrural.com.br/agricultura/milho/milho-dolar-valoriza-e-produtores-restringem-oferta-no-mercado/",
-   "resumo": "Valorização da moeda norte-americana leva produtores a segurar as vendas do cereal, sustentando os preços mesmo com o avanço do plantio da safra 2026/27 O post Milho: dólar valoriza e produtores restringem oferta no merc",
-   "fonte": "Canal Rural",
-   "tema": "Milho",
-   "data": "23/11",
-   "coletadoEm": "2026-11-27T02:59:36.900Z"
-  },
   {
    "fonteId": "cr-soja",
    "titulo": "Soja recua no Brasil com forte queda do dólar e negócios travados; confira os preços do dia",
@@ -65,7 +55,7 @@
    "fonte": "Canal Rural",
    "tema": "Soja",
    "data": "26/11",
-   "coletadoEm": "2026-11-27T02:59:36.900Z"
+   "coletadoEm": "2026-11-27T12:22:29.292Z"
   },
   {
    "fonteId": "cr-soja",
@@ -75,7 +65,7 @@
    "fonte": "Canal Rural",
    "tema": "Soja",
    "data": "26/11",
-   "coletadoEm": "2026-11-27T02:59:36.900Z"
+   "coletadoEm": "2026-11-27T12:22:29.292Z"
   },
   {
    "fonteId": "cr-soja",
@@ -85,7 +75,37 @@
    "fonte": "Canal Rural",
    "tema": "Soja",
    "data": "26/11",
-   "coletadoEm": "2026-11-27T02:59:36.900Z"
+   "coletadoEm": "2026-11-27T12:22:29.292Z"
+  },
+  {
+   "fonteId": "novacana",
+   "titulo": "Apesar de bonificação, CBios não “pagam” investimentos em captura de CO2",
+   "url": "https://www.novacana.com/noticias/apesar-de-bonificacao-cbios-nao-pagam-investimentos-em-captura-de-co2",
+   "resumo": "Pesquisadora da Embrapa relata que benefício previsto em lei precisaria ser “empilhado” a outros instrumentos, como venda de créditos no mercado voluntário",
+   "fonte": "NovaCana",
+   "tema": "Cana",
+   "data": "27/11",
+   "coletadoEm": "2026-11-27T12:22:29.292Z"
+  },
+  {
+   "fonteId": "novacana",
+   "titulo": "Entidades estimam que taxa sobre açúcar fora da cota dos EUA superará 200%",
+   "url": "https://www.novacana.com/noticias/entidades-estimam-que-taxa-sobre-acucar-fora-da-cota-dos-eua-superara-200",
+   "resumo": "Bioenergia Brasil e Unica pedem diálogo comercial com os EUA e buscam redução de barreiras para mais previsibilidade diante da ameaça de aumento nas tarifas de importação",
+   "fonte": "NovaCana",
+   "tema": "Cana",
+   "data": "27/11",
+   "coletadoEm": "2026-11-27T12:22:29.292Z"
+  },
+  {
+   "fonteId": "novacana",
+   "titulo": "Elevado custo logístico brasileiro é entrave para avanço do setor, diz CEO da Ultracargo",
+   "url": "https://www.novacana.com/noticias/elevado-custo-logistico-brasileiro-e-entrave-para-avanco-do-setor-diz-ceo-da-ultracargo",
+   "resumo": "Fulvius Tomelin fala sobre os desafios da infraestrutura e a importância da segurança na operação de granéis líquidos no Brasil",
+   "fonte": "NovaCana",
+   "tema": "Cana",
+   "data": "27/11",
+   "coletadoEm": "2026-11-27T12:22:29.292Z"
   },
   {
    "fonteId": "novacana",
@@ -95,36 +115,16 @@
    "fonte": "NovaCana",
    "tema": "Cana",
    "data": "26/11",
-   "coletadoEm": "2026-11-27T02:59:36.900Z"
+   "coletadoEm": "2026-11-27T12:22:29.292Z"
   },
   {
-   "fonteId": "novacana",
-   "titulo": "MME reforça que não há risco de desabastecimento de etanol anidro durante entressafra",
-   "url": "https://www.novacana.com/noticias/mme-reforca-que-nao-ha-risco-de-desabastecimento-de-etanol-anidro-durante-entressafra",
-   "resumo": "",
-   "fonte": "NovaCana",
-   "tema": "Cana",
-   "data": "26/11",
-   "coletadoEm": "2026-11-27T02:59:36.900Z"
-  },
-  {
-   "fonteId": "novacana",
-   "titulo": "Nova tarifa dos Estados Unidos ameaça elevar preços internacionais do açúcar",
-   "url": "https://www.novacana.com/noticias/nova-tarifa-dos-estados-unidos-ameaca-elevar-precos-internacionais-do-acucar",
-   "resumo": "Proposta do governo Trump para elevar as tarifas sobre o açúcar importado pode ter impacto maior no próprio mercado americano, segundo analistas; contratos futuros de açúcar bruto dos EUA sobem 15%",
-   "fonte": "NovaCana",
-   "tema": "Cana",
-   "data": "26/11",
-   "coletadoEm": "2026-11-27T02:59:36.900Z"
-  },
-  {
-   "fonteId": "novacana",
-   "titulo": "Secretária de Agricultura de Trump defende tarifas e acusa Brasil de “práticas desleais”",
-   "url": "https://www.novacana.com/noticias/secretaria-de-agricultura-de-trump-defende-tarifas-e-acusa-brasil-de-praticas-desleais",
-   "resumo": "Governo Trump propôs uma nova cobrança sobre as importações de açúcar que excederem as cotas estabelecidas pelos EUA; medida ainda não tem data para entrar em vigor",
-   "fonte": "NovaCana",
-   "tema": "Cana",
-   "data": "26/11",
+   "fonteId": "cr-milho",
+   "titulo": "Milho: dólar valoriza e produtores restringem oferta no mercado",
+   "url": "https://www.canalrural.com.br/agricultura/milho/milho-dolar-valoriza-e-produtores-restringem-oferta-no-mercado/",
+   "resumo": "Valorização da moeda norte-americana leva produtores a segurar as vendas do cereal, sustentando os preços mesmo com o avanço do plantio da safra 2026/27 O post Milho: dólar valoriza e produtores restringem oferta no merc",
+   "fonte": "Canal Rural",
+   "tema": "Milho",
+   "data": "23/11",
    "coletadoEm": "2026-11-27T02:59:36.900Z"
   }
  ],
