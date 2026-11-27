@@ -1,5 +1,5 @@
 {
- "atualizadoEm": "2026-11-27T02:36:18.033Z",
+ "atualizadoEm": "2026-11-27T02:38:37.060Z",
  "precos": [
   {
    "fonteId": "agrolink",
@@ -9,7 +9,8 @@
    "valor": 57.94,
    "data": "27/11",
    "fonte": "Agrolink",
-   "url": "https://www.agrolink.com.br/cotacoes/milho-seco-sc-60kg/sp/altinopolis"
+   "url": "https://www.agrolink.com.br/cotacoes/milho-seco-sc-60kg/sp/altinopolis",
+   "coletadoEm": "2026-11-27T02:38:37.059Z"
   },
   {
    "fonteId": "agrolink",
@@ -19,7 +20,8 @@
    "valor": 55,
    "data": "27/11",
    "fonte": "Agrolink",
-   "url": "https://www.agrolink.com.br/cotacoes/milho-seco-sc-60kg/sp/sao-joaquim-da-barra"
+   "url": "https://www.agrolink.com.br/cotacoes/milho-seco-sc-60kg/sp/sao-joaquim-da-barra",
+   "coletadoEm": "2026-11-27T02:38:37.059Z"
   },
   {
    "fonteId": "agrolink",
@@ -29,7 +31,8 @@
    "valor": 163,
    "data": "27/11",
    "fonte": "Agrolink",
-   "url": "https://www.agrolink.com.br/cotacoes/soja-em-grao-sc-60kg/sp/orlandia"
+   "url": "https://www.agrolink.com.br/cotacoes/soja-em-grao-sc-60kg/sp/orlandia",
+   "coletadoEm": "2026-11-27T02:38:37.059Z"
   },
   {
    "fonteId": "na-cepea",
@@ -78,6 +81,42 @@
  ],
  "noticias": [
   {
+   "fonteId": "cr-milho",
+   "titulo": "Milho: dólar valoriza e produtores restringem oferta no mercado",
+   "url": "https://www.canalrural.com.br/agricultura/milho/milho-dolar-valoriza-e-produtores-restringem-oferta-no-mercado/",
+   "resumo": "Valorização da moeda norte-americana leva produtores a segurar as vendas do cereal, sustentando os preços mesmo com o avanço do plantio da safra 2026/27 O post Milho: dólar valoriza e produtores restringem oferta no merc",
+   "fonte": "Canal Rural",
+   "tema": "Milho",
+   "data": "23/11"
+  },
+  {
+   "fonteId": "cr-soja",
+   "titulo": "Soja recua no Brasil com forte queda do dólar e negócios travados; confira os preços do dia",
+   "url": "https://www.canalrural.com.br/agricultura/projeto-soja-brasil/soja-recua-no-brasil-com-forte-queda-do-dolar-e-negocios-travados-confira-os-precos-do-dia/",
+   "resumo": "Ausência de negociações na Bolsa de Chicago e desvalorização de 1,26% da moeda norte-americana pressionaram as cotações O post Soja recua no Brasil com forte queda do dólar e negócios travados; confira os preços do dia a",
+   "fonte": "Canal Rural",
+   "tema": "Soja",
+   "data": "26/11"
+  },
+  {
+   "fonteId": "cr-soja",
+   "titulo": "Frente fria chega com chuva de até 200 mm; frio veio para ficar ou calorão vai voltar?",
+   "url": "https://www.canalrural.com.br/agricultura/projeto-soja-brasil/frente-fria-chega-com-chuva-de-ate-200-mm-frio-veio-para-ficar-ou-calorao-vai-voltar/",
+   "resumo": "Temporais devem atingir áreas do Sul e do Sudeste nos próximos dias, enquanto temperaturas podem chegar a 39 °C no Norte e no Nordeste O post Frente fria chega com chuva de até 200 mm; frio veio para ficar ou calorão vai",
+   "fonte": "Canal Rural",
+   "tema": "Soja",
+   "data": "26/11"
+  },
+  {
+   "fonteId": "cr-soja",
+   "titulo": "Abiove eleva em 10,3% previsão de exportação de óleo de soja em 2026",
+   "url": "https://www.canalrural.com.br/agricultura/projeto-soja-brasil/abiove-eleva-em-103-previsao-de-exportacao-de-oleo-de-soja-em-2026/",
+   "resumo": "Entidade projeta embarques de 2,15 milhões de toneladas do derivado e aumenta estimativas de esmagamento para 63,7 milhões de t neste ano O post Abiove eleva em 10,3% previsão de exportação de óleo de soja em 2026 aparec",
+   "fonte": "Canal Rural",
+   "tema": "Soja",
+   "data": "26/11"
+  },
+  {
    "fonteId": "novacana",
    "titulo": "Isma estima produção indiana de açúcar em 26,52 mi t em 2026/27, queda de 5,2%",
    "url": "https://www.novacana.com/noticias/producao-de-acucar-da-india-deve-cair-ao-nivel-mais-baixo-da-decada-diz-entidade-do-setor",
@@ -112,54 +151,6 @@
    "fonte": "NovaCana",
    "tema": "Cana",
    "data": "26/11"
-  },
-  {
-   "fonteId": "na-milho",
-   "titulo": "Milho fecha em queda de até 1,23% na B3, mas preços físicos permanecem estáveis no Brasil",
-   "url": "https://www.noticiasagricolas.com.br/noticias/milho/432046-milho-fecha-em-queda-de-ate-1-23-na-b-3-mas-precos-fisicos-permanecem-estaveis-no-brasil.html",
-   "fonte": "Notícias Agrícolas",
-   "tema": "Milho",
-   "data": "26/11 16:53"
-  },
-  {
-   "fonteId": "na-milho",
-   "titulo": "UE eleva estimativa da safra de milho, mas volume continua sendo o menor em décadas",
-   "url": "https://www.noticiasagricolas.com.br/noticias/milho/432045-ue-eleva-estimativa-da-safra-de-milho-mas-volume-continua-sendo-o-menor-em-decadas.html",
-   "fonte": "Notícias Agrícolas",
-   "tema": "Milho",
-   "data": "26/11 15:34"
-  },
-  {
-   "fonteId": "na-milho",
-   "titulo": "Milho sobe mais de 1% nesta 4ª e lidera ganhos em Chicago, mas dólar em queda pressiona B3",
-   "url": "https://www.noticiasagricolas.com.br/noticias/milho/431972-milho-sobe-mais-de-1-nesta-4-e-lidera-ganhos-em-chicago-mas-dolar-em-queda-pressiona-b-3.html",
-   "fonte": "Notícias Agrícolas",
-   "tema": "Milho",
-   "data": "25/11"
-  },
-  {
-   "fonteId": "na-soja",
-   "titulo": "Soja perde R$ 3/sc nos portos na semana com recuo de mais de 1% do dólar",
-   "url": "https://www.noticiasagricolas.com.br/noticias/soja/432051-soja-perde-r-3-sc-nos-portos-na-semana-com-recuo-de-mais-de-1-do-dolar.html",
-   "fonte": "Notícias Agrícolas",
-   "tema": "Soja",
-   "data": "26/11 17:11"
-  },
-  {
-   "fonteId": "na-soja",
-   "titulo": "Brasil já comercializou 38,1% da safra 2026/27 de soja, aponta StoneX",
-   "url": "https://www.noticiasagricolas.com.br/noticias/soja/432022-brasil-ja-comercializou-38-1-da-safra-2026-27-de-soja-aponta-stone-x.html",
-   "fonte": "Notícias Agrícolas",
-   "tema": "Soja",
-   "data": "26/11 14:48"
-  },
-  {
-   "fonteId": "na-soja",
-   "titulo": "Deral faz leve corte na previsão de safra de soja do Paraná; reduz colheita de trigo",
-   "url": "https://www.noticiasagricolas.com.br/noticias/soja/432005-deral-faz-leve-corte-na-previsao-de-safra-de-soja-do-parana-reduz-colheita-de-trigo.html",
-   "fonte": "Notícias Agrícolas",
-   "tema": "Soja",
-   "data": "26/11 11:45"
   }
  ],
  "erros": [
