@@ -1,5 +1,5 @@
 {
- "atualizadoEm": "2026-11-27T02:18:08.117Z",
+ "atualizadoEm": "2026-11-27T02:34:52.496Z",
  "precos": [
   {
    "fonteId": "agrolink",
@@ -78,6 +78,42 @@
  ],
  "noticias": [
   {
+   "fonteId": "novacana",
+   "titulo": "Isma estima produção indiana de açúcar em 26,52 mi t em 2026/27, queda de 5,2%",
+   "url": "https://www.novacana.com/noticias/producao-de-acucar-da-india-deve-cair-ao-nivel-mais-baixo-da-decada-diz-entidade-do-setor",
+   "resumo": "",
+   "fonte": "NovaCana",
+   "tema": "Cana",
+   "data": "26/11"
+  },
+  {
+   "fonteId": "novacana",
+   "titulo": "MME reforça que não há risco de desabastecimento de etanol anidro durante entressafra",
+   "url": "https://www.novacana.com/noticias/mme-reforca-que-nao-ha-risco-de-desabastecimento-de-etanol-anidro-durante-entressafra",
+   "resumo": "",
+   "fonte": "NovaCana",
+   "tema": "Cana",
+   "data": "26/11"
+  },
+  {
+   "fonteId": "novacana",
+   "titulo": "Nova tarifa dos Estados Unidos ameaça elevar preços internacionais do açúcar",
+   "url": "https://www.novacana.com/noticias/nova-tarifa-dos-estados-unidos-ameaca-elevar-precos-internacionais-do-acucar",
+   "resumo": "Proposta do governo Trump para elevar as tarifas sobre o açúcar importado pode ter impacto maior no próprio mercado americano, segundo analistas; contratos futuros de açúcar bruto dos EUA sobem 15%",
+   "fonte": "NovaCana",
+   "tema": "Cana",
+   "data": "26/11"
+  },
+  {
+   "fonteId": "novacana",
+   "titulo": "Secretária de Agricultura de Trump defende tarifas e acusa Brasil de “práticas desleais”",
+   "url": "https://www.novacana.com/noticias/secretaria-de-agricultura-de-trump-defende-tarifas-e-acusa-brasil-de-praticas-desleais",
+   "resumo": "Governo Trump propôs uma nova cobrança sobre as importações de açúcar que excederem as cotas estabelecidas pelos EUA; medida ainda não tem data para entrar em vigor",
+   "fonte": "NovaCana",
+   "tema": "Cana",
+   "data": "26/11"
+  },
+  {
    "fonteId": "na-milho",
    "titulo": "Milho fecha em queda de até 1,23% na B3, mas preços físicos permanecem estáveis no Brasil",
    "url": "https://www.noticiasagricolas.com.br/noticias/milho/432046-milho-fecha-em-queda-de-ate-1-23-na-b-3-mas-precos-fisicos-permanecem-estaveis-no-brasil.html",
@@ -124,43 +160,9 @@
    "fonte": "Notícias Agrícolas",
    "tema": "Soja",
    "data": "26/11 11:45"
-  },
-  {
-   "fonteId": "novacana",
-   "titulo": "Isma estima produção indiana de açúcar em 26,52 mi t em 2026/27, queda de 5,2%",
-   "url": "https://www.novacana.com/noticias/producao-de-acucar-da-india-deve-cair-ao-nivel-mais-baixo-da-decada-diz-entidade-do-setor",
-   "resumo": "",
-   "fonte": "NovaCana",
-   "tema": "Cana",
-   "data": "26/11"
-  },
-  {
-   "fonteId": "novacana",
-   "titulo": "MME reforça que não há risco de desabastecimento de etanol anidro durante entressafra",
-   "url": "https://www.novacana.com/noticias/mme-reforca-que-nao-ha-risco-de-desabastecimento-de-etanol-anidro-durante-entressafra",
-   "resumo": "",
-   "fonte": "NovaCana",
-   "tema": "Cana",
-   "data": "26/11"
-  },
-  {
-   "fonteId": "novacana",
-   "titulo": "Nova tarifa dos Estados Unidos ameaça elevar preços internacionais do açúcar",
-   "url": "https://www.novacana.com/noticias/nova-tarifa-dos-estados-unidos-ameaca-elevar-precos-internacionais-do-acucar",
-   "resumo": "Proposta do governo Trump para elevar as tarifas sobre o açúcar importado pode ter impacto maior no próprio mercado americano, segundo analistas; contratos futuros de açúcar bruto dos EUA sobem 15%",
-   "fonte": "NovaCana",
-   "tema": "Cana",
-   "data": "26/11"
-  },
-  {
-   "fonteId": "novacana",
-   "titulo": "Secretária de Agricultura de Trump defende tarifas e acusa Brasil de “práticas desleais”",
-   "url": "https://www.novacana.com/noticias/secretaria-de-agricultura-de-trump-defende-tarifas-e-acusa-brasil-de-praticas-desleais",
-   "resumo": "Governo Trump propôs uma nova cobrança sobre as importações de açúcar que excederem as cotas estabelecidas pelos EUA; medida ainda não tem data para entrar em vigor",
-   "fonte": "NovaCana",
-   "tema": "Cana",
-   "data": "26/11"
   }
  ],
- "erros": []
+ "erros": [
+  "Notícias Agrícolas: https://www.noticiasagricolas.com.br/cotacoes/soja respondeu 403"
+ ]
 }
