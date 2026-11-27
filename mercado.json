@@ -1,5 +1,5 @@
 {
- "atualizadoEm": "2026-11-27T02:50:08.620Z",
+ "atualizadoEm": "2026-11-27T02:59:36.901Z",
  "precos": [
   {
    "fonteId": "agrolink",
@@ -10,7 +10,7 @@
    "data": "27/11",
    "fonte": "Agrolink",
    "url": "https://www.agrolink.com.br/cotacoes/feijao-carioca-sc-60kg/sp/barretos",
-   "coletadoEm": "2026-11-27T02:50:08.619Z"
+   "coletadoEm": "2026-11-27T02:59:36.900Z"
   },
   {
    "fonteId": "agrolink",
@@ -21,7 +21,7 @@
    "data": "27/11",
    "fonte": "Agrolink",
    "url": "https://www.agrolink.com.br/cotacoes/milho-seco-sc-60kg/sp/altinopolis",
-   "coletadoEm": "2026-11-27T02:50:08.619Z"
+   "coletadoEm": "2026-11-27T02:59:36.900Z"
   },
   {
    "fonteId": "agrolink",
@@ -32,7 +32,7 @@
    "data": "27/11",
    "fonte": "Agrolink",
    "url": "https://www.agrolink.com.br/cotacoes/milho-seco-sc-60kg/sp/sao-joaquim-da-barra",
-   "coletadoEm": "2026-11-27T02:50:08.619Z"
+   "coletadoEm": "2026-11-27T02:59:36.900Z"
   },
   {
    "fonteId": "agrolink",
@@ -43,51 +43,7 @@
    "data": "27/11",
    "fonte": "Agrolink",
    "url": "https://www.agrolink.com.br/cotacoes/soja-em-grao-sc-60kg/sp/orlandia",
-   "coletadoEm": "2026-11-27T02:50:08.619Z"
-  },
-  {
-   "fonteId": "na-cepea",
-   "produto": "Milho",
-   "praca": "Indicador CEPEA (Campinas-SP)",
-   "unidade": "sc 60 kg",
-   "valor": 68,
-   "variacao": "0,09%",
-   "data": "26/11",
-   "fonte": "CEPEA via Notícias Agrícolas",
-   "url": "https://www.noticiasagricolas.com.br/cotacoes/milho"
-  },
-  {
-   "fonteId": "na-cepea",
-   "produto": "Soja",
-   "praca": "Indicador CEPEA (Paranaguá-PR)",
-   "unidade": "sc 60 kg",
-   "valor": 169.18,
-   "variacao": "-0,51%",
-   "data": "26/11",
-   "fonte": "CEPEA via Notícias Agrícolas",
-   "url": "https://www.noticiasagricolas.com.br/cotacoes/milho"
-  },
-  {
-   "fonteId": "na-cepea",
-   "produto": "Açúcar cristal",
-   "praca": "Indicador CEPEA (SP)",
-   "unidade": "sc 50 kg",
-   "valor": 133.59,
-   "variacao": "1,15%",
-   "data": "26/11",
-   "fonte": "CEPEA via Notícias Agrícolas",
-   "url": "https://www.noticiasagricolas.com.br/cotacoes/milho"
-  },
-  {
-   "fonteId": "na-b3",
-   "produto": "Milho",
-   "praca": "B3, contrato mar 27",
-   "unidade": "sc 60 kg",
-   "valor": 75.2,
-   "variacao": "0,00%",
-   "data": "26/11",
-   "fonte": "B3 via Notícias Agrícolas",
-   "url": "https://www.noticiasagricolas.com.br/cotacoes/milho"
+   "coletadoEm": "2026-11-27T02:59:36.900Z"
   }
  ],
  "noticias": [
@@ -98,7 +54,8 @@
    "resumo": "Valorização da moeda norte-americana leva produtores a segurar as vendas do cereal, sustentando os preços mesmo com o avanço do plantio da safra 2026/27 O post Milho: dólar valoriza e produtores restringem oferta no merc",
    "fonte": "Canal Rural",
    "tema": "Milho",
-   "data": "23/11"
+   "data": "23/11",
+   "coletadoEm": "2026-11-27T02:59:36.900Z"
   },
   {
    "fonteId": "cr-soja",
@@ -107,7 +64,8 @@
    "resumo": "Ausência de negociações na Bolsa de Chicago e desvalorização de 1,26% da moeda norte-americana pressionaram as cotações O post Soja recua no Brasil com forte queda do dólar e negócios travados; confira os preços do dia a",
    "fonte": "Canal Rural",
    "tema": "Soja",
-   "data": "26/11"
+   "data": "26/11",
+   "coletadoEm": "2026-11-27T02:59:36.900Z"
   },
   {
    "fonteId": "cr-soja",
@@ -116,7 +74,8 @@
    "resumo": "Temporais devem atingir áreas do Sul e do Sudeste nos próximos dias, enquanto temperaturas podem chegar a 39 °C no Norte e no Nordeste O post Frente fria chega com chuva de até 200 mm; frio veio para ficar ou calorão vai",
    "fonte": "Canal Rural",
    "tema": "Soja",
-   "data": "26/11"
+   "data": "26/11",
+   "coletadoEm": "2026-11-27T02:59:36.900Z"
   },
   {
    "fonteId": "cr-soja",
@@ -125,7 +84,8 @@
    "resumo": "Entidade projeta embarques de 2,15 milhões de toneladas do derivado e aumenta estimativas de esmagamento para 63,7 milhões de t neste ano O post Abiove eleva em 10,3% previsão de exportação de óleo de soja em 2026 aparec",
    "fonte": "Canal Rural",
    "tema": "Soja",
-   "data": "26/11"
+   "data": "26/11",
+   "coletadoEm": "2026-11-27T02:59:36.900Z"
   },
   {
    "fonteId": "novacana",
@@ -134,7 +94,8 @@
    "resumo": "",
    "fonte": "NovaCana",
    "tema": "Cana",
-   "data": "26/11"
+   "data": "26/11",
+   "coletadoEm": "2026-11-27T02:59:36.900Z"
   },
   {
    "fonteId": "novacana",
@@ -143,7 +104,8 @@
    "resumo": "",
    "fonte": "NovaCana",
    "tema": "Cana",
-   "data": "26/11"
+   "data": "26/11",
+   "coletadoEm": "2026-11-27T02:59:36.900Z"
   },
   {
    "fonteId": "novacana",
@@ -152,7 +114,8 @@
    "resumo": "Proposta do governo Trump para elevar as tarifas sobre o açúcar importado pode ter impacto maior no próprio mercado americano, segundo analistas; contratos futuros de açúcar bruto dos EUA sobem 15%",
    "fonte": "NovaCana",
    "tema": "Cana",
-   "data": "26/11"
+   "data": "26/11",
+   "coletadoEm": "2026-11-27T02:59:36.900Z"
   },
   {
    "fonteId": "novacana",
@@ -161,7 +124,8 @@
    "resumo": "Governo Trump propôs uma nova cobrança sobre as importações de açúcar que excederem as cotas estabelecidas pelos EUA; medida ainda não tem data para entrar em vigor",
    "fonte": "NovaCana",
    "tema": "Cana",
-   "data": "26/11"
+   "data": "26/11",
+   "coletadoEm": "2026-11-27T02:59:36.900Z"
   }
  ],
  "erros": [
