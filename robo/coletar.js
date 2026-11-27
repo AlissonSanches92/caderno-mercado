@@ -39,7 +39,7 @@ async function precosRegiao() {
   for (const m of html.matchAll(re)) {
     const [, prod, cidade, rotulo, preco, data] = m;
     const nome = limpar(rotulo);
-    if (!/milho|soja|sorgo/i.test(nome)) continue;
+    if (!/milho|soja|sorgo|feij/i.test(nome)) continue;
     const chave = prod + '|' + cidade; if (vistos.has(chave)) continue; vistos.add(chave);
     const u = nome.match(/\s+Sc\s+(\d+)\s*Kg$/i);
     out.push({
