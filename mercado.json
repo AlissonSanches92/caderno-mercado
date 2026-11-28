@@ -1,5 +1,5 @@
 {
- "atualizadoEm": "2026-11-27T22:23:54.186Z",
+ "atualizadoEm": "2026-11-28T12:11:02.507Z",
  "precos": [
   {
    "fonteId": "agrolink",
@@ -10,7 +10,7 @@
    "data": "27/11",
    "fonte": "Agrolink",
    "url": "https://www.agrolink.com.br/cotacoes/feijao-carioca-sc-60kg/sp/barretos",
-   "coletadoEm": "2026-11-27T22:23:54.185Z"
+   "coletadoEm": "2026-11-28T12:11:02.506Z"
   },
   {
    "fonteId": "agrolink",
@@ -21,7 +21,7 @@
    "data": "27/11",
    "fonte": "Agrolink",
    "url": "https://www.agrolink.com.br/cotacoes/milho-seco-sc-60kg/sp/altinopolis",
-   "coletadoEm": "2026-11-27T22:23:54.185Z"
+   "coletadoEm": "2026-11-28T12:11:02.506Z"
   },
   {
    "fonteId": "agrolink",
@@ -32,7 +32,7 @@
    "data": "27/11",
    "fonte": "Agrolink",
    "url": "https://www.agrolink.com.br/cotacoes/milho-seco-sc-60kg/sp/sao-joaquim-da-barra",
-   "coletadoEm": "2026-11-27T22:23:54.185Z"
+   "coletadoEm": "2026-11-28T12:11:02.506Z"
   },
   {
    "fonteId": "agrolink",
@@ -43,10 +43,20 @@
    "data": "27/11",
    "fonte": "Agrolink",
    "url": "https://www.agrolink.com.br/cotacoes/soja-em-grao-sc-60kg/sp/orlandia",
-   "coletadoEm": "2026-11-27T22:23:54.185Z"
+   "coletadoEm": "2026-11-28T12:11:02.506Z"
   }
  ],
  "noticias": [
+  {
+   "fonteId": "cr-soja",
+   "titulo": "Dólar cai na semana e derruba preços da soja no Brasil",
+   "url": "https://www.canalrural.com.br/agricultura/projeto-soja-brasil/dolar-cai-na-semana-e-derruba-precos-da-soja-no-brasil/",
+   "resumo": "Desvalorização da moeda norte-americana pressionou as cotações internas, enquanto alta em Chicago não foi suficiente para estimular os negócios O post Dólar cai na semana e derruba preços da soja no Brasil apareceu prime",
+   "fonte": "Canal Rural",
+   "tema": "Soja",
+   "data": "27/11",
+   "coletadoEm": "2026-11-28T12:11:02.506Z"
+  },
   {
    "fonteId": "cr-soja",
    "titulo": "Temporais e chuvas de até 200 mm em dez dias: o que esperar do tempo no começo de dezembro",
@@ -55,7 +65,7 @@
    "fonte": "Canal Rural",
    "tema": "Soja",
    "data": "27/11",
-   "coletadoEm": "2026-11-27T22:23:54.185Z"
+   "coletadoEm": "2026-11-28T12:11:02.506Z"
   },
   {
    "fonteId": "cr-soja",
@@ -65,17 +75,7 @@
    "fonte": "Canal Rural",
    "tema": "Soja",
    "data": "27/11",
-   "coletadoEm": "2026-11-27T22:23:54.185Z"
-  },
-  {
-   "fonteId": "cr-soja",
-   "titulo": "Soja recua no Brasil com forte queda do dólar e negócios travados; confira as cotações",
-   "url": "https://www.canalrural.com.br/agricultura/projeto-soja-brasil/soja-recua-no-brasil-com-forte-queda-do-dolar-e-negocios-travados-confira-os-precos-do-dia/",
-   "resumo": "Ausência de negociações na Bolsa de Chicago e desvalorização de 1,26% da moeda norte-americana pressionaram as cotações O post Soja recua no Brasil com forte queda do dólar e negócios travados; confira as cotações aparec",
-   "fonte": "Canal Rural",
-   "tema": "Soja",
-   "data": "26/11",
-   "coletadoEm": "2026-11-27T22:23:54.185Z"
+   "coletadoEm": "2026-11-28T12:11:02.506Z"
   },
   {
    "fonteId": "novacana",
@@ -85,7 +85,7 @@
    "fonte": "NovaCana",
    "tema": "Cana",
    "data": "27/11",
-   "coletadoEm": "2026-11-27T22:23:54.185Z"
+   "coletadoEm": "2026-11-28T12:11:02.506Z"
   },
   {
    "fonteId": "novacana",
@@ -95,7 +95,7 @@
    "fonte": "NovaCana",
    "tema": "Cana",
    "data": "27/11",
-   "coletadoEm": "2026-11-27T22:23:54.185Z"
+   "coletadoEm": "2026-11-28T12:11:02.506Z"
   },
   {
    "fonteId": "novacana",
@@ -105,7 +105,7 @@
    "fonte": "NovaCana",
    "tema": "Cana",
    "data": "27/11",
-   "coletadoEm": "2026-11-27T22:23:54.185Z"
+   "coletadoEm": "2026-11-28T12:11:02.506Z"
   },
   {
    "fonteId": "novacana",
@@ -115,7 +115,7 @@
    "fonte": "NovaCana",
    "tema": "Cana",
    "data": "27/11",
-   "coletadoEm": "2026-11-27T22:23:54.185Z"
+   "coletadoEm": "2026-11-28T12:11:02.506Z"
   },
   {
    "fonteId": "cr-milho",
@@ -129,6 +129,7 @@
   }
  ],
  "erros": [
-  "Notícias Agrícolas: https://www.noticiasagricolas.com.br/cotacoes/milho respondeu 403"
+  "Notícias Agrícolas: https://www.noticiasagricolas.com.br/cotacoes/milho respondeu 403",
+  "Canal Rural milho: Canal Rural (Milho): nada recente no RSS"
  ]
 }
